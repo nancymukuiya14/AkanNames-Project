@@ -17,3 +17,10 @@ body {
     background-color: rgb(233, 218, 211);
     
 }
+footer {
+    height: 20px;
+    background-color: rgb(247, 134, 81);
+    bottom: -70px;
+    text-align: center;
+    padding: 10px;
+}
