@@ -2,13 +2,30 @@ body {
     color: white;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(71, 31, 13);
+    background-color: rgb(71, 25, 4);
+    
+}
+.logo {
+    font-size: medium;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: 700;
 }
 .one {
     background-image: url('./Assets/africa.jpg');
     background-size: 600px;height: 600px;
     background-repeat: no-repeat;
-    opacity: 0.8;
+    opacity: 0.7;
+}
+.four {
+    color:white
+    
+}
+.three {
+    font-size: x-large;
+}
+h1 {
+    text-align: center;
 }
 .form-layout {
     margin-bottom: 30px;
@@ -23,11 +40,15 @@ body {
     
 }
 .ghaniangirl img {
-    border-radius: 100px;
+    border-radius: 100%;
+    margin-left: 200px;
+    /* align-items: center; display:flex; */
+   
 }
 
 .card-header {
     background-color: white;
+    box-shadow: 7px 10px 5px 0px rgba(222,213,213,0.75);
     
 }
 footer {
@@ -56,3 +77,6 @@ footer {
     font-size: 18px;
     font-family: 'Quattrocento', serif;
   }
+.form-condition {
+    border-radius: 50px;
+}
