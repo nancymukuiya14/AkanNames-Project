@@ -11,12 +11,12 @@ body {
     opacity: 0.8;
 }
 .form-layout {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     padding-bottom: 5px;
 }
 #About {
     color: black;
-    margin-left: 250px;
+    margin-left: 300px;
 }
 .onetwo {
     display: flex;
@@ -34,7 +34,8 @@ footer {
     height: 50px;
     background-color:rgb(71, 31, 13);
     color: white;
-    bottom: -70px;
+    position: relative;
+    margin-top:70px;
     text-align: center;
     padding: 10px;
     width: 100%;
@@ -49,3 +50,9 @@ footer {
     float: right;
     top:-50px;
 }
+.form-layout{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Quattrocento', serif;
+  }
