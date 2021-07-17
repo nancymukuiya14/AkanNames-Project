@@ -1,0 +1,19 @@
+body {
+    color: white;
+}
+#About {
+    color: black;
+    margin-left: 250px;
+}
+.onetwo {
+    display: flex;
+    
+}
+.ghaniangirl img {
+    border-radius: 100px;
+}
+
+.card-header {
+    background-color: rgb(233, 218, 211);
+    
+}
