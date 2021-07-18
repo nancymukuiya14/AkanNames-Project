@@ -1,10 +1,15 @@
+
 var btn=document.getElementById("submit1");
+
+//adding event listener on the click button//
+
 btn.addEventListener("click", function () { 
     // alert ("hello");
     var year= Number(document.getElementById("year").value);
     var month=Number (document.getElementById("month").value);
     var date= Number(document.getElementById("date").value);
     var gender=document.querySelector('input[name="gender"]:checked');
+    //control structer//
     if (date<=0 || date>31){
         alert ("Enter valid date of birth");
     }
