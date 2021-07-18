@@ -16,53 +16,54 @@
     <body class="container-fluid">
         <div id="header">
             <div class="logo"></div>
-           <h4>Akan's</h4>
+            <h4>Akan's</h4>
             <div class="africa">
-            <img src="./Assets/africa2-removebg-preview (2).png" height="70" alt=" ">
+                <img src="./Assets/africa2-removebg-preview (2).png" height="70" alt=" ">
             </div>
         </div>
         <div class="one">
             <div class="container">
                 <div class="three">
-                <h3>Welcome To Akan Names!</h3>
+                    <h3>Welcome To Akan Names!</h3>
                 </div>
                 <div class="four">
-                <h2>Enter Your Details Here!</h2>
+                    <h2>Enter Your Details Here!</h2>
                 </div>
                 <div class="onetwo">
-                    <form name="myForm" class="form" onsubmit="validate();">
+                    <!-- <form name="myForm" class="form" onsubmit="validate();"> -->
+                    <div class="form">
                         <div class="form-layout">
                             <label for="number">Year of Birth:</label>
-                            <input type="number" class="form-condition" id="year"
-                                placeholder="Year of Birth Eg: 1990" name="year">
+                            <input type="number" class="condition" id="year" placeholder="Year of Birth Eg: 1990"
+                                name="year">
                         </div>
                         <div class="form-layout">
                             <label for="month">Month of Birth:</label>
-                            <input type="number" class="form-condition" id="month" placeholder="Birth Month"
-                                name="month">
+                            <input type="number" class="condition" id="month" placeholder="Birth Month" name="month">
                         </div>
                         <div class="form-layout">
                             <label for="date">Date of Birth:</label>
-                            <input type="number" class="form-condition" id="date"
-                                placeholder="Date of Birth eg 14th for feb" name="date">
+                            <input type="number" class="condition" id="date" placeholder="Date of Birth eg 14th for feb"
+                                name="date">
                         </div>
                         <div class="form-layout">
                             <label for="month">Gender</label><br>
                             <div class="form-check-outline">
                                 <label class="form-check-label">
-                                    <input type="radio" class="form-check-input m-2" name="gender" id="male">Male
+                                    <input type="radio" class="form-check-input m-2" name="gender" id="male" value="male">Male
                                 </label>
                             </div>
                             <div class="form-check-outline">
                                 <label class="form-check-label">
-                                    <input type="radio" class="form-check-input m-2" name="gender" id="female">Female
+                                    <input type="radio" class="form-check-input m-2" name="gender" id="female" value="female">Female
                                 </label>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-warning p-3" onclick="findName();">Get Akan Name</button>
+                        <button type="button" class="btn btn-warning p-3" id="submit1">Get Akan Name</button>
 
                         <br>
-                    </form>
+                    </div>
+                    <!-- </form>                  -->
                     <div id="About">
                         <div class="card">
                             <div class="card-header">
@@ -70,11 +71,11 @@
                                     <h1>Akan Names</h1>
                                     <p>Akan names are derived from Ghanian culture.In Ghana, children
                                         are given their first name as a 'day name' which corresponds to the day in the
-                                        week they were born. Here are Ghanian day names.</p>
-                                    <p> This web application that takes a user's birthday and calculates the day of the
-                                        week they were born and then depending on their gender outputs their Akan Name.
-                                        To learn more </p>
-                                    <p>More info on Akan Names</p>
+                                        week they were born.</p>
+                                    <p> This is web application that takes a your birthday and calculates the day of the
+                                        week that you were born and then depending on their gender outputs your Akan
+                                        Name. </p>
+                                    <p>Here is More info on Akan Names</p>
                                 </div>
                                 <div class="ghaniangirl">
                                     <img src="./Assets/GHANIAN.jpg" height="150" alt="ghanian  girl">
@@ -88,6 +89,7 @@
             <footer>
                 Copyright @2021 Built and designed by Nancy Kigotho.
             </footer>
+            <script src="index.js"></script>
 
     </body>
 

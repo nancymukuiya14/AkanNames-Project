@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
 body {
     color: white;
     margin: 0px;
     padding: 0px;
     background-color: rgb(71, 25, 4);
-    
+    font-family: 'Kalam', cursive;
 }
 .logo {
     font-size: medium;
@@ -77,6 +79,6 @@ footer {
     font-size: 18px;
     font-family: 'Quattrocento', serif;
   }
-.form-condition {
+.condition {
     border-radius: 50px;
 }
