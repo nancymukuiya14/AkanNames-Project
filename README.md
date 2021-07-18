@@ -11,9 +11,11 @@
 ## Technologies Used.
 * HTML.
 * CSS.
+* Bootstrap
 * Javascript.
 ## Contact Information.
 * if you have any questions about the project please contact me via nancykigotho14@gmail.com.
+or call 0705814086.
 ## Requirements.
 * Github.
 * Git.
@@ -21,6 +23,8 @@
 ## Github link.
 Below is a link to view the project.
 https://nancymukuiya14.github.io/AkanNames-Project/
+## BDD
+Thankfully i have no bugs in this project.
 
 ## Images.
 <img src="./Assets/readmepic.png">
