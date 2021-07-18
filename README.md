@@ -8,4 +8,20 @@
 * Enter a valid date of birth.
 * select your gender.
 * Click on the button to get your Akan name.
-## Contact Information
+## Technologies Used.
+* HTML.
+* CSS.
+* Javascript.
+## Contact Information.
+* if you have any questions about the project please contact me via nancykigotho14@gmail.com.
+## Requirements.
+* Github.
+* Git.
+* web browser.
+## Github link.
+Below is a link to view the project.
+https://nancymukuiya14.github.io/AkanNames-Project/
+
+## Images.
+<img src="./Assets/readmepic.png">
+<img src="./Assets/readmepic2.png">
