@@ -33,6 +33,7 @@ btn.addEventListener("click", function () {
     console.log(dayvalue);
     let dayOfTheWeek = dayvalue.getDay()
     console.log(dayOfTheWeek);
+    
     //Getting the Akan Name//
 
     if (gender.value == "male") {
