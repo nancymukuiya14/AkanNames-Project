@@ -7,12 +7,14 @@ body {
     background-color: rgb(71, 25, 4);
     font-family: 'Kalam', cursive;
 }
+/*style the logo*/
 .logo {
     font-size: medium;
     font-family: fantasy;
     font-style: italic;
     font-weight: 700;
 }
+/*add backgroud image to the form*/
 .one {
     background-image: url('./Assets/africa.jpg');
     background-size: 600px;height: 600px;
@@ -53,6 +55,7 @@ h1 {
     box-shadow: 7px 10px 5px 0px rgba(222,213,213,0.75);
     
 }
+/*style the footer*/
 footer {
     height: 50px;
     background-color:rgb(71, 31, 13);
