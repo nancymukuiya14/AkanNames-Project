@@ -1,5 +1,5 @@
-## Author of the project :Nancy Kigotho.
-## Project Name :Akan Names.
+## Project Name is Akan Names.
+## Built and Designed by Nancy Kigotho.
 ## Description.
 *  This is a web application that takes your birthday date,month and year and calculates the day of the week that you were born and then depending on their gender outputs your Akan Name.
 ## Instructions.
