@@ -22,11 +22,13 @@ body {
     opacity: 0.7;
 }
 .four {
-    color:white
+    color:white;
+    font-weight:bolder;
     
 }
 .three {
     font-size: x-large;
+    font-weight:bolder;
 }
 h1 {
     text-align: center;
